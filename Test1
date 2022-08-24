@@ -18,8 +18,8 @@ void loop() {
   // These four lines result in 1 step:
   digitalWrite(stepPin, HIGH);
   digitalWrite(LED_BUILTIN, HIGH);
-  delayMicroseconds(5000);
+  delay(500);
   digitalWrite(stepPin, LOW);
   digitalWrite(LED_BUILTIN, LOW);
-  delayMicroseconds(5000);
+  delay(500);
 }
